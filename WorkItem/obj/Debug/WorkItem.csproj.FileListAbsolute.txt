@@ -1,0 +1,16 @@
+E:\workspace\trunk\source\ETCP\Framework\WorkItem\obj\Debug\WorkItem.csprojResolveAssemblyReference.cache
+E:\workspace\trunk\source\ETCP\bin\Debug\Library.PL.SwitchBoard.dll
+E:\workspace\trunk\source\ETCP\bin\Debug\Library.PL.SwitchBoard.pdb
+E:\workspace\trunk\source\ETCP\Framework\WorkItem\obj\Debug\Library.PL.SwitchBoard.dll
+E:\workspace\trunk\source\ETCP\Framework\WorkItem\obj\Debug\Library.PL.SwitchBoard.pdb
+C:\Users\ETCP-201811001\Documents\Visual Studio 2015\Projects\ConsoleApplication1\WorkItem\obj\Debug\WorkItem.csprojResolveAssemblyReference.cache
+C:\Users\ETCP-201811001\Documents\Visual Studio 2015\Projects\ConsoleApplication1\WorkItem\obj\Debug\Library.PL.SwitchBoard.dll
+C:\Users\ETCP-201811001\Documents\Visual Studio 2015\Projects\ConsoleApplication1\WorkItem\obj\Debug\Library.PL.SwitchBoard.pdb
+C:\Users\ETCP-201811001\Documents\Visual Studio 2015\Projects\bin\Debug\Library.PL.SwitchBoard.dll
+C:\Users\ETCP-201811001\Documents\Visual Studio 2015\Projects\bin\Debug\Library.PL.SwitchBoard.pdb
+D:\job\login\bin\Debug\Library.PL.SwitchBoard.dll
+D:\job\login\bin\Debug\Library.PL.SwitchBoard.pdb
+D:\job\login\FileFerry\WorkItem\obj\Debug\WorkItem.csprojAssemblyReference.cache
+D:\job\login\FileFerry\WorkItem\obj\Debug\WorkItem.csproj.CoreCompileInputs.cache
+D:\job\login\FileFerry\WorkItem\obj\Debug\Library.PL.SwitchBoard.dll
+D:\job\login\FileFerry\WorkItem\obj\Debug\Library.PL.SwitchBoard.pdb

@@ -1,0 +1,15 @@
+D:\WDLibrary\bin\WD.Library.Core.dll
+D:\WDLibrary\bin\WD.Library.Core.pdb
+D:\WDLibrary\Framework\WD.Library.Core\obj\Debug\WD.Library.Core.csprojAssemblyReference.cache
+D:\WDLibrary\Framework\WD.Library.Core\obj\Debug\WD.Library.Core.csproj.CoreCompileInputs.cache
+D:\WDLibrary\Framework\WD.Library.Core\obj\Debug\WD.Library.Core.csproj.CopyComplete
+D:\WDLibrary\Framework\WD.Library.Core\obj\Debug\WD.Library.Core.dll
+D:\WDLibrary\Framework\WD.Library.Core\obj\Debug\WD.Library.Core.pdb
+D:\job\login\FileFerry\Library.Core\obj\Debug\WD.Library.Core.csprojAssemblyReference.cache
+D:\job\login\FileFerry\Library.Core\obj\Debug\WD.Library.Core.csproj.CoreCompileInputs.cache
+D:\job\login\FileFerry\Library.Core\obj\Debug\WD.Library.Core.dll
+D:\job\login\FileFerry\Library.Core\obj\Debug\WD.Library.Core.pdb
+D:\job\login\bin\log4net.config
+D:\job\login\bin\WD.Library.Core.dll
+D:\job\login\bin\WD.Library.Core.pdb
+D:\job\login\FileFerry\Library.Core\obj\Debug\WD.Library.Core.csproj.CopyComplete

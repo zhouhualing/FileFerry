@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Properties>
+  <SerializedObject key="User">
+    <UserModel AutoLogin="True" RememberPassoword="True" UserId="0" UserName="test" UserPwd="test" xmlns="clr-namespace:WD.Library.Core;assembly=WD.Library.Core" />
+  </SerializedObject>
+  <SerializedObject key="Client">
+    <ClientConfig ChatServer="127.0.0.1:9999" FtpServer="127.0.0.1:9998" HttpServer="127.0.0.1:9997" InitBufferSize="10240" Port="39654" Url="http://127.0.0.1:39655/File/" xmlns="clr-namespace:WD.Library.Core;assembly=WD.Library.Core" />
+  </SerializedObject>
+</Properties>

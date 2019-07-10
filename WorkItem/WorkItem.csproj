@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{29F60AD4-CA3D-4DFA-B027-A8ADFC1B0AB4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Library.PL.SwitchBoard</RootNamespace>
+    <AssemblyName>Library.PL.SwitchBoard</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\AppCommand.cs" />
+    <Compile Include="Controller\AppCommandArgs.cs" />
+    <Compile Include="Controller\AppCommandCompleteDelegate.cs" />
+    <Compile Include="Controller\AppEvent.cs" />
+    <Compile Include="Controller\AppEventArgs.cs" />
+    <Compile Include="Controller\CommandDispatcher.cs" />
+    <Compile Include="Controller\CommandException.cs" />
+    <Compile Include="Controller\CommandHandlerItem.cs" />
+    <Compile Include="Controller\CommandHandlerWrapper.cs" />
+    <Compile Include="Controller\CompleteHandleDelegate.cs" />
+    <Compile Include="Controller\EventDispatcher.cs" />
+    <Compile Include="Controller\EventException.cs" />
+    <Compile Include="Controller\EventHandlerMapItem.cs" />
+    <Compile Include="Controller\EventHandlerWrapper.cs" />
+    <Compile Include="Controller\IAppEventArgs.cs" />
+    <Compile Include="Controller\ICommandHandler.cs" />
+    <Compile Include="Controller\IContainerFactory.cs" />
+    <Compile Include="Controller\IEventHandler.cs" />
+    <Compile Include="Controller\IPrimaryController.cs" />
+    <Compile Include="Controller\PrimaryController.cs" />
+    <Compile Include="Controller\RemoteEventArgs.cs" />
+    <Compile Include="Controller\ThreadMode.cs" />
+    <Compile Include="Controller\WorkItemContainer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

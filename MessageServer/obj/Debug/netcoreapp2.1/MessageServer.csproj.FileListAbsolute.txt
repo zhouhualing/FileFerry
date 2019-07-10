@@ -1,0 +1,11 @@
+D:\job\login\FileFerry\MessageServer\bin\Debug\netcoreapp2.1\MessageServer.deps.json
+D:\job\login\FileFerry\MessageServer\bin\Debug\netcoreapp2.1\MessageServer.runtimeconfig.json
+D:\job\login\FileFerry\MessageServer\bin\Debug\netcoreapp2.1\MessageServer.runtimeconfig.dev.json
+D:\job\login\FileFerry\MessageServer\bin\Debug\netcoreapp2.1\MessageServer.dll
+D:\job\login\FileFerry\MessageServer\bin\Debug\netcoreapp2.1\MessageServer.pdb
+D:\job\login\FileFerry\MessageServer\obj\Debug\netcoreapp2.1\MessageServer.csprojAssemblyReference.cache
+D:\job\login\FileFerry\MessageServer\obj\Debug\netcoreapp2.1\MessageServer.csproj.CoreCompileInputs.cache
+D:\job\login\FileFerry\MessageServer\obj\Debug\netcoreapp2.1\MessageServer.AssemblyInfoInputs.cache
+D:\job\login\FileFerry\MessageServer\obj\Debug\netcoreapp2.1\MessageServer.AssemblyInfo.cs
+D:\job\login\FileFerry\MessageServer\obj\Debug\netcoreapp2.1\MessageServer.dll
+D:\job\login\FileFerry\MessageServer\obj\Debug\netcoreapp2.1\MessageServer.pdb

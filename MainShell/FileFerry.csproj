@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7B95530F-DF22-48FD-8A67-41CF21860759}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FileFerry</RootNamespace>
+    <AssemblyName>FileFerry</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\Libs\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity">
+      <HintPath>..\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Hepler\WindowsHepler.cs" />
+    <Compile Include="ViewModels\LoginViewModel.cs" />
+    <Compile Include="ViewModels\ViewModelBase.cs" />
+    <Compile Include="Views\LoginView.xaml.cs">
+      <DependentUpon>LoginView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Comm\RelayCommand.cs" />
+    <Compile Include="Hepler\PwdHelper.cs" />
+    <Page Include="Views\LoginView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\close_n.png" />
+    <Resource Include="Resource\close_e.png" />
+    <Resource Include="Resource\close_m.png" />
+    <Resource Include="Resource\login_bg.png" />
+    <Resource Include="Resource\login_info.png" />
+    <Resource Include="Resource\login_name.png" />
+    <Resource Include="Resource\login_perfile.png" />
+    <Resource Include="Resource\login_pwd.png" />
+    <Resource Include="Resource\min_n.png" />
+    <Resource Include="Resource\min_e.png" />
+    <Resource Include="Resource\min_m.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CorePlugin\WD.CorePlugin.csproj">
+      <Project>{86c0776e-12ad-43ea-b213-0d5dfbe8c46a}</Project>
+      <Name>WD.CorePlugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ferry.Component\GFF.Component.csproj">
+      <Project>{2771c51e-5e0f-4501-8e58-99ad70027c58}</Project>
+      <Name>GFF.Component</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ferry.Helper\GFF.Helper.csproj">
+      <Project>{9293b703-cfed-4072-93ed-65bac837d1ae}</Project>
+      <Name>GFF.Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ferry.Model\GFF.Model.csproj">
+      <Project>{7e4f864a-ac23-49e5-a9df-fd57ba1c58ed}</Project>
+      <Name>GFF.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FerryClient\GFFClient.csproj">
+      <Project>{844b2a62-45b4-48c1-90d3-b8c563365dfd}</Project>
+      <Name>GFFClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Library.Core\WD.Library.Core.csproj">
+      <Project>{8245b199-d0ba-44a7-a6a2-0f87d89a4c81}</Project>
+      <Name>WD.Library.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Library.Data\WD.Library.Data.csproj">
+      <Project>{4313de1e-738f-477d-b7fd-b237e9116670}</Project>
+      <Name>WD.Library.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Library.Utils\WD.Library.csproj">
+      <Project>{4077b0b7-062a-4f6d-8a45-a180a2ed3215}</Project>
+      <Name>WD.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logger\Logger.csproj">
+      <Project>{95b80824-5b4c-4f60-bfab-c02ee28ac880}</Project>
+      <Name>Logger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WorkItem\WorkItem.csproj">
+      <Project>{29f60ad4-ca3d-4dfa-b027-a8adfc1b0ab4}</Project>
+      <Name>WorkItem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WpfUI\WpfUI.csproj">
+      <Project>{aee176da-ad8c-4158-8a82-1acecc464f56}</Project>
+      <Name>WpfUI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Addins\CorePlugin.addin">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\FerryApplicationProperties.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

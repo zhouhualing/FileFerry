@@ -1,0 +1,16 @@
+D:\WDLibrary\Framework\bin\Debug\log4net.config
+D:\WDLibrary\Framework\bin\Debug\LogHelper.dll
+D:\WDLibrary\Framework\bin\Debug\LogHelper.pdb
+D:\WDLibrary\Framework\Logger\obj\Debug\Logger.csprojAssemblyReference.cache
+D:\WDLibrary\Framework\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
+D:\WDLibrary\Framework\Logger\obj\Debug\Logger.csproj.CopyComplete
+D:\WDLibrary\Framework\Logger\obj\Debug\LogHelper.dll
+D:\WDLibrary\Framework\Logger\obj\Debug\LogHelper.pdb
+D:\job\login\FileFerry\Logger\obj\Debug\Logger.csprojAssemblyReference.cache
+D:\job\login\FileFerry\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
+D:\job\login\FileFerry\Logger\obj\Debug\LogHelper.dll
+D:\job\login\FileFerry\Logger\obj\Debug\LogHelper.pdb
+D:\job\login\FileFerry\bin\Debug\log4net.config
+D:\job\login\FileFerry\bin\Debug\LogHelper.dll
+D:\job\login\FileFerry\bin\Debug\LogHelper.pdb
+D:\job\login\FileFerry\Logger\obj\Debug\Logger.csproj.CopyComplete

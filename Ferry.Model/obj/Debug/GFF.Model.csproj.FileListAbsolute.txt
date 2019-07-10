@@ -1,0 +1,17 @@
+C:\filetransfer\GFF-master\GFF.Model\bin\Debug\GFF.Model.dll
+C:\filetransfer\GFF-master\GFF.Model\bin\Debug\GFF.Model.pdb
+C:\filetransfer\GFF-master\GFF.Model\bin\Debug\protobuf-net.dll
+C:\filetransfer\GFF-master\GFF.Model\bin\Debug\protobuf-net.xml
+C:\filetransfer\GFF-master\GFF.Model\obj\Debug\GFF.Model.csproj.CoreCompileInputs.cache
+C:\filetransfer\GFF-master\GFF.Model\obj\Debug\GFF.Model.csproj.CopyComplete
+C:\filetransfer\GFF-master\GFF.Model\obj\Debug\GFF.Model.dll
+C:\filetransfer\GFF-master\GFF.Model\obj\Debug\GFF.Model.pdb
+D:\job\QQ\work\GFF-master\GFF.Model\bin\Debug\GFF.Model.dll
+D:\job\QQ\work\GFF-master\GFF.Model\bin\Debug\GFF.Model.pdb
+D:\job\QQ\work\GFF-master\GFF.Model\bin\Debug\protobuf-net.dll
+D:\job\QQ\work\GFF-master\GFF.Model\bin\Debug\protobuf-net.xml
+D:\job\QQ\work\GFF-master\GFF.Model\obj\Debug\GFF.Model.csprojAssemblyReference.cache
+D:\job\QQ\work\GFF-master\GFF.Model\obj\Debug\GFF.Model.csproj.CoreCompileInputs.cache
+D:\job\QQ\work\GFF-master\GFF.Model\obj\Debug\GFF.Model.csproj.CopyComplete
+D:\job\QQ\work\GFF-master\GFF.Model\obj\Debug\GFF.Model.dll
+D:\job\QQ\work\GFF-master\GFF.Model\obj\Debug\GFF.Model.pdb

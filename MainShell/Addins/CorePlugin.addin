@@ -1,0 +1,19 @@
+﻿<AddIn name        = "CorePlugin"
+       author      = "hwalin"
+       url         = "http://www.wendu.com"
+       description = "Plugin"
+       addInManagerHidden = "true">
+
+  <Manifest>
+    <Identity name="CorePlugin" version = "@WDCoreVersion"/>
+  </Manifest>
+
+  <Runtime>
+    <Import assembly=":WD.Library.Core" />
+    <Import assembly = ":WD.CorePlugin" />
+  </Runtime>
+  <Path name="/Application/AddIn/Init">
+    <Class id="CoreModule"
+         class="WD.CorePlugin.CoreModule"/>
+  </Path>-->
+</AddIn>

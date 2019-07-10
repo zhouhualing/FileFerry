@@ -1,0 +1,15 @@
+D:\WDLibrary\bin\WD.CorePlugin.dll
+D:\WDLibrary\bin\WD.CorePlugin.pdb
+D:\WDLibrary\Plugins\CorePlugin\obj\Debug\WD.CorePlugin.csprojAssemblyReference.cache
+D:\WDLibrary\Plugins\CorePlugin\obj\Debug\WD.CorePlugin.csproj.CoreCompileInputs.cache
+D:\WDLibrary\Plugins\CorePlugin\obj\Debug\WD.CorePlugin.csproj.CopyComplete
+D:\WDLibrary\Plugins\CorePlugin\obj\Debug\WD.CorePlugin.dll
+D:\WDLibrary\Plugins\CorePlugin\obj\Debug\WD.CorePlugin.pdb
+D:\job\login\FileFerry\CorePlugin\obj\Debug\WD.CorePlugin.csprojAssemblyReference.cache
+D:\job\login\FileFerry\CorePlugin\obj\Debug\WD.CorePlugin.csproj.CoreCompileInputs.cache
+D:\job\login\FileFerry\CorePlugin\obj\Debug\WD.CorePlugin.dll
+D:\job\login\FileFerry\CorePlugin\obj\Debug\WD.CorePlugin.pdb
+D:\job\login\bin\WD.CorePlugin.dll
+D:\job\login\bin\WD.CorePlugin.pdb
+D:\job\login\FileFerry\CorePlugin\obj\Debug\WD.CorePlugin.csproj.CopyComplete
+D:\job\login\bin\log4net.config
